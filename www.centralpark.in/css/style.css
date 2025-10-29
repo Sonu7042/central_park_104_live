@@ -6807,7 +6807,8 @@ body.overflow {
 }
 
 .innercontact {
-	padding: 50px 80px;
+	/* padding: 50px 80px; */
+	padding: 28px 80px 80px 80px;
 	border: 1px solid #ceccc7;
 	transition: all .5s ease;
 	height: 100px;
@@ -6820,7 +6821,7 @@ body.overflow {
 	font-weight: 500;
 	font-family: Optima;
 	display: block;
-	margin-bottom: 15px;
+	/* margin-bottom: 15px; */
 	text-align: center;
 }
 
