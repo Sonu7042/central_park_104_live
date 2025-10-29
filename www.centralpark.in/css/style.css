@@ -8978,7 +8978,7 @@ span.fixed-hrera.hrera-right {
 
 .mainwrap .gridanimated .innergridpro .itemwrap a:after {
 	content: '';
-	background: #00000045;
+	/* background: #00000045; */
 	position: absolute;
 	right: 0;
 	left: 0;
