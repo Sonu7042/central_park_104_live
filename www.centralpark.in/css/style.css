@@ -384,13 +384,13 @@ a:hover {
 .mainwrap header .navigation .right .headernav .mainnav ul li a {
 	width: 100%;
 	float: left;
-	font-family: Optima;
+	font-family: Freight;
 	color: #fff;
 	padding: 0;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	position: relative;
-	font-size: 12px;
+	font-size: 13px;
 	-webkit-transition: all ease-in-out .3s;
 	-o-transition: all ease-in-out .3s;
 	transition: all ease-in-out .3s
@@ -9891,7 +9891,7 @@ button.acceptedds {
 .sub_heading_font {
 	font-size: 32px !important;
 	font-weight: 100 !important;
-	text-align: start;
+	text-align: center;
 }
 
 /* Primary typography class */
@@ -11048,3 +11048,198 @@ button.acceptedds {
 }
 
 /* @media (max-width : 425px){ */
+
+
+
+
+
+
+
+
+/* -------------------- OVERVIEW SECTION -------------------- */
+.overview-section {
+  width: 100%;
+  background: #fff;
+  padding: 80px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.overview-container {
+  width: 90%;
+  max-width: 1300px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* ---------- Heading ---------- */
+.overview-header {
+  margin-bottom: 40px;
+}
+
+.overview-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.overview-subtitle {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #555;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ---------- Text Content ---------- */
+.overview-content {
+  max-width: 900px;
+  margin: 0 auto 50px;
+}
+
+.overview-text {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #333;
+  margin-bottom: 16px;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* ---------- Gallery ---------- */
+.overview-gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.gallery-item {
+  width: 100%;
+  height: 240px;
+  border-radius: 12px;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Example background images — replace with your own */
+.residential {
+  background-image: url("central_park_img/overivew_img1.jpg");
+}
+.commercial {
+  background-image: url("central_park_img/overivew_img2.jpg");
+}
+.hospitality {
+  background-image: url("central_park_img/overivew_img3.jpg");
+}
+.leisure {
+  background-image: url("central_park_img/overivew_img4.jpg");
+}
+
+/* -------------------- TABLET VIEW (max-width: 1024px) -------------------- */
+@media (max-width: 1024px) {
+  .overview-title {
+    font-size: 2.4rem;
+  }
+
+  .overview-subtitle {
+    font-size: 1.2rem;
+    max-width: 700px;
+  }
+
+  .overview-gallery {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+  }
+
+  .gallery-item {
+    height: 220px;
+  }
+}
+
+/* -------------------- MOBILE VIEW (max-width: 768px) -------------------- */
+@media (max-width: 768px) {
+  .overview-section {
+    padding: 60px 0;
+  }
+
+  .overview-title {
+    font-size: 2rem;
+  }
+
+  .overview-subtitle {
+    font-size: 1.05rem;
+  }
+
+  .overview-content {
+    margin-bottom: 40px;
+  }
+
+  .overview-text {
+    font-size: 0.98rem;
+  }
+
+  .overview-gallery {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* -------------------- SMALL MOBILE (max-width: 425px) -------------------- */
+@media (max-width: 425px) {
+  .overview-section {
+    padding: 50px 0;
+  }
+
+  .overview-container {
+    width: 94%;
+  }
+
+  .overview-header {
+    margin-bottom: 24px;
+  }
+
+  .overview-title {
+    font-size: 1.6rem;
+  }
+
+  .overview-subtitle {
+    font-size: 1rem;
+    line-height: 1.4;
+    padding: 0 10px;
+  }
+
+  .overview-content {
+    margin-bottom: 30px;
+    padding: 0 8px;
+    text-align: justify;
+  }
+
+  .overview-text {
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+
+  .overview-gallery {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .gallery-item {
+    height: 200px;
+  }
+
+  .hide-mobile {
+    display: none;
+  }
+}
