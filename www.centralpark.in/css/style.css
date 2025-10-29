@@ -150,9 +150,9 @@ a:hover {
 }
 
 .mainwrap header.fixed {
-	position: fixed !important;
+	/* position: fixed !important;
 	top: 0;
-	left: 0;
+	left: 0; */
 	-webkit-transition: all 1s ease;
 	-o-transition: all 1s ease;
 	transition: all 1s ease;
