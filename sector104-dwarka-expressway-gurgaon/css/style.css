@@ -11504,3 +11504,49 @@ color: rgb(62, 62, 62);
     padding: 56px 10px !important;
 }
 }
+
+
+
+ /* Fixed phone button */
+    .fixed-number {
+      position: fixed;
+      right: 0px;
+      bottom: 0%;
+      transform: translateY(-50%);
+      background: #0078ff;
+      color: #fff;
+      font-size: 16px;
+      font-weight: bold;
+      padding: 10px 20px;
+      border-radius: 8px 0 0 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      z-index: 999;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+
+    .fixed-number:hover {
+      background: #005dc1;
+      transform: translateY(-50%) scale(1.05);
+    }
+
+    .fixed-number i {
+      font-size: 18px;
+    }
+
+    /* Hide number text on mobile */
+    @media (max-width: 768px) {
+      .fixed-number span {
+        display: none;
+      }
+
+      .fixed-number {
+        padding: 12px 15px;
+        border-radius: 50%;
+        right: 10px;
+        background: #0078ff;
+      }
+    }
